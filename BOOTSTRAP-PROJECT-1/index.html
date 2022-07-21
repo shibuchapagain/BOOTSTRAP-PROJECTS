@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shibu Chapagain</title>
+    <!-- IMPORT CSS AND FORNT -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!--LETS STARTED-->
+    <!---->
+    <!-- NAVBAR START -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark"
+      style="background-color: rgb(230, 230, 217); font-weight: 550"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/logo.jpg"
+            alt="logo"
+            class="img-fluid d-inline-block align-text-top active rounded-circle"
+            style="width: 3.7rem; height: 2.5rem"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Client</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web development</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Application development</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">SEO</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              style="font-weight: 500"
+              ,
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              style="font-weight: 500"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END-->
+    <!-- SLIDER -->
+    <!-- SLIDER START -->
+    <div class="bd-example m-lg-3">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/slide5.jpg"
+              style="height: 30rem"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slide6.jpg"
+              style="height: 30rem"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slide7.jpg"
+              style="height: 30rem"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- SLIDER END -->
+    <!-- CONTAINER -->
+    <div class="container-fluid">
+      <!-- tagline -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Possimus sed doloribus at.
+          </h3>
+        </div>
+      </div>
+      <!-- FEATURES -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <!--point to be noted-->
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+          <h5>Build for developers</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor
+            molestias magni?
+          </p>
+        </div>
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-laptop-fill text-success"></i></h1>
+          <h5>Build fro machine</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor
+            molestias magni?
+          </p>
+        </div>
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-trophy-fill text-danger"></i></h1>
+          <h5>Build for gamers</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor
+            molestias magni?
+          </p>
+        </div>
+      </div>
+      <!--line-->
+      <hr />
+
+      <!-- GROWTH -->
+      <!-- CONTAINER END -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-5 mt-5">
+          <img
+            src="img/slide6.jpg"
+            class="img-fluid"
+            style="height: 25rem"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 mt-5">
+          <div class="progress">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              aria-label="Success example"
+              style="width: 25%"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              aria-label="Info example"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-warning"
+              role="progressbar"
+              aria-label="Warning example"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-danger"
+              role="progressbar"
+              aria-label="Danger example"
+              style="width: 100%"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JAVASCRIPT PART-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
